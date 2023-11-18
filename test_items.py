@@ -8,7 +8,7 @@ link = ('http://selenium1py.pythonanywhere.com/catalogue/coders-at'
 
 def test_add_button_exist(browser):
     browser.get(link)
-    time.sleep(7)
+    time.sleep(30)
     try:
         browser.find_element(
             by='class name', value='btn.btn-lg.btn-primary.btn-add-to-basket')
